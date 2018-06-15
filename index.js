@@ -36,7 +36,7 @@ function viewCart() {
       for (let i=1, l=getCart().length-1; i<l; i++) {
         openingSentence += `, ${getCart()[i].itemName} at $${getCart()[i].itemPrice}`
       }
-      openingSentence +=, ${getCart()[].itemName} at $${getCart()[i].itemPrice}`
+      openingSentence += `, and ${getCart()[getCart().length-1].itemName} at $${getCart()[getCart().length-1].itemPrice}`
     }
     
   }
