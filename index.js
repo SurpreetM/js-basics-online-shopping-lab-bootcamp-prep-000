@@ -38,7 +38,7 @@ function cartDescription() {
     
     if (getCart().length >=2) {
       for (let i=1, l=getCart().length-1; i<l; i++) {
-        openingSentence += `${getCart()[i].itemName} at ${getCart()[i]}.itemPrice`
+        openingSentence += `, and ${getCart()[i].itemName} at ${getCart()[i]}.itemPrice`
       }
     }
     
