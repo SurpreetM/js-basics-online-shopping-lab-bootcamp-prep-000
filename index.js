@@ -45,22 +45,6 @@ function viewCart() {
   }
 }
 
-function cartDescription() {
-  var openingSentence = `In your cart, you have `
-  
-  if (getCart().length >= 1) {
-    openingSentence += `${getCart()[0].itemName} at ${getCart()[0].itemPrice}`
-    
-    if (getCart().length >=2) {
-      for (let i=1, l=getCart().length-1; i<l; i++) {
-        openingSentence += `, and ${getCart()[i].itemName} at ${getCart()[i].itemPrice}`
-      }
-    }
-    
-  }
-  
-  return`${openingSentence}.`
-}
 
 function total() {
   // write your code here
