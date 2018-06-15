@@ -34,8 +34,9 @@ function viewCart() {
     
     if (getCart().length >=2) {
       for (let i=1, l=getCart().length-1; i<l; i++) {
-        openingSentence += `, and ${getCart()[i].itemName} at $${getCart()[i].itemPrice}`
+        openingSentence += `, ${getCart()[i].itemName} at $${getCart()[i].itemPrice}`
       }
+      openingSentence +=, ${getCart()[].itemName} at $${getCart()[i].itemPrice}`
     }
     
   }
