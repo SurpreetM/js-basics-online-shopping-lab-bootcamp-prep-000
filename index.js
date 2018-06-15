@@ -28,6 +28,17 @@ function viewCart() {
   if (getCart().length === 0) {return `Your shopping cart is empty.`}
 }
 
+function cartDescription() {
+  var openingSentence = `In your cart, you have`
+  
+  if (getCart().length >= 1) {
+    openingSentence =+
+    
+  }
+  
+  return`${openingSentence}.`
+}
+
 function total() {
   // write your code here
 }
