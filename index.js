@@ -45,7 +45,8 @@ function viewCart() {
 
 
 function total() {
-  var sum = sum 
+  var sum = sum()
+  return sum
 }
   
 function sum() {
