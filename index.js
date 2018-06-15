@@ -19,7 +19,9 @@ function createItem (item) {
 }
 
 function addToCart(item) {
- // write your code here
+ var newItem = createItem(item)
+  getCart().push(newItem)
+  return `${item} has been added to your cart.`
 }
 
 function viewCart() {
