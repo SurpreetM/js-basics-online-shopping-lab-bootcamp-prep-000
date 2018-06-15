@@ -45,8 +45,8 @@ function viewCart() {
 
 
 function total() {
-  var totalSum = 0
-  for (let i = 0, l=getCart().length; i<l; i++) {
+  var totalSum = 1
+  for (let i = 1, l=getCart().length; i<l; i++) {
     totalSum = parseInt(totalSum) + parseInt(getCart().itemPrice[i])
   }
   return totalSum
