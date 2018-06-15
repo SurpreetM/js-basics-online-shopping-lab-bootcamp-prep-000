@@ -9,6 +9,15 @@ function setCart(c) {
   return cart;
 }
 
+
+function randomNumber (min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
+function createItem (item) {
+  return {itemName: item, itemPrice: randomNumber(0,100)}
+}
+
 function addToCart(item) {
  // write your code here
 }
