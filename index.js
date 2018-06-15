@@ -45,7 +45,9 @@ function viewCart() {
 
 
 function total() {
-  for ()
+  for (var i=0; i<getCart().length; i++) {
+    
+  }
 }
 
 function removeFromCart(item) {
