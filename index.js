@@ -45,7 +45,7 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
+  for ()
 }
 
 function removeFromCart(item) {
