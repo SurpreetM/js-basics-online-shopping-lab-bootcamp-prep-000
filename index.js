@@ -45,11 +45,11 @@ function viewCart() {
 
 
 function total() {
-  var total = 0
+  var totalSum = 0
   for (let i = 0, l=getCart().length; i<l; i++) {
-    total = parseInt(total) + parseInt(getCart().itemPrice[i])
+    totalSum = parseInt(total) + parseInt(getCart().itemPrice[i])
   }
-  return total
+  return totalSum
 }
 
 function removeFromCart(item) {
