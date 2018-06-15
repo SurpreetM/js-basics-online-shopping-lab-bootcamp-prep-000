@@ -33,7 +33,7 @@ function viewCart() {
     openingSentence += `${getCart()[0].itemName} at $${getCart()[0].itemPrice}`
     
     if (getCart().length >=2) {
-      for (let i=1, l=getCart().length-1; l>=i; i++) {
+      for (let i=1, l=getCart().length-1; i<l; i++) {
         openingSentence += `, and ${getCart()[i].itemName} at $${getCart()[i].itemPrice}`
       }
     }
