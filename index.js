@@ -55,7 +55,8 @@ function total() {
 
 
 
- removeFromCart(item) {
+ function removeFromCart(item) {
+   
  }
    
    
