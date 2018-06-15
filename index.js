@@ -57,7 +57,7 @@ function total() {
 
  removeFromCart(item) {
    var itemToRemove = searchResult
-   if (itemToRemove === "") {return `
+   if (itemToRemove === "") {return `That item is not in your cart.`}
  }
   
   function searchResult() {
